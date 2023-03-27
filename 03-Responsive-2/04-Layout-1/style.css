@@ -23,3 +23,29 @@ body {
 	- 1000px
 */
 
+@media screen and (min-width: 640px) {
+	.kontejner {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.horni,
+	.treti {
+		flex: 1 1 100%;
+	}
+
+	.prvni,
+	.druhy {
+		flex: 1 1 50%;
+	}
+}
+
+@media screen and (min-width: 1000px) {
+
+	.prvni,
+	.druhy,
+	.treti {
+		flex: 1 1 calc(100% / 3);
+	}
+
+}
