@@ -45,7 +45,7 @@ body {
 	.prvni,
 	.druhy,
 	.treti {
-		flex: 1 1 calc(100% / 3);
+		flex-basis: calc(100% / 3);
 	}
 
 }
